@@ -3,6 +3,14 @@
 <head>
     <title>Contact - The Gourmet Spot</title>
     <link rel="stylesheet" href="style.css">
+     <script>
+        // JavaScript to handle form submission
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevents form from submitting
+            alert("Message successfully sent!"); // Displays success message
+            this.reset(); // Clears the form fields after submission
+        });
+     </script>
 </head>
 <body>
     <header>
@@ -49,13 +57,5 @@
         <p>Bhavisha Bhavesh Morjaria | 664328 | bmorjaria@usiu.ac.ke</p>
     </footer>
     
-     <script>
-        // JavaScript to handle form submission
-        document.getElementById("contactForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevents form from submitting
-            alert("Message successfully sent!"); // Displays success message
-            this.reset(); // Clears the form fields after submission
-        });
-     </script>
 </body>
 </html>
