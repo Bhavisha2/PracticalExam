@@ -38,6 +38,22 @@ img {
     margin-top: 10px;
 }
 
+#menu h3 {
+    margin-top: 20px;
+    color: #8b0000;
+}
+
+#menu ul {
+    list-style-type: disc;
+    padding-left: 20px; /* Moves bullets closer to text */
+    display: inline-block;
+    text-align: left;
+}
+
+#menu li {
+    margin: 5px 0;
+}
+
 footer {
     background-color: #333;
     color: white;
